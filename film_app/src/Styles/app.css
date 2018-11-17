@@ -1,0 +1,33 @@
+.header{
+    font-size: 3vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.navigationBar{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+@media only screen and (max-width: 768px){
+    [class*="navigationBar"]{
+        border: 0px solid rgba(0, 0, 0, 0.8);
+    }
+}
+
+.addButton{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
+
+.info{
+   
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;  
+    /* border-bottom: 1px solid black; */
+}
+
+

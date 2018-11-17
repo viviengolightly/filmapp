@@ -1,0 +1,35 @@
+[
+	{
+		"title":"Train to Busan",
+		"image":"http://t1.gstatic.com/images?q=tbn:ANd9GcSL7v79L_4drBAwzvXKCaTms0G9gx86N-pbxTCduLStbkr_vZ6M",
+		"genre":"Drama",
+		"director":"Yeon Sang-ho",
+		"description":[
+		"A man (Gong Yoo), his estranged daughter and other passengers become trapped on a ",
+		"speeding train during a zombie outbreak in South Korea."
+		]
+	},
+
+	{
+		"title":"Pulp Fiction",
+		"image":"http://t2.gstatic.com/images?q=tbn:ANd9GcRz_2nKTNlxhVtzbh29kgL3m2ebLv3TlYyzrbyqBtEUxt6mBuZ-",
+		"genre":"Drama, Crime",
+		"director":"Quentin Tarantino",
+		"description":[
+		"Vincent Vega (John Travolta) and Jules Winnfield (Samuel L. Jackson) are hitmen with",
+		" a penchant for philosophical discussions."
+		]
+	},
+
+	{
+		"title":"A Tale of Two Sisters",
+		"image":"https://www.imdb.com/title/tt0365376/mediaviewer/rm1597838592",
+		"genre":"Horror",
+		"director":"Kim Jee-woon",
+		"description":[
+		"After being institutionalized in a mental hospital, Korean teen Su-mi (Yeom Jeong-ah) ",
+		"reunites with her beloved sister, Su-yeon (Su-jeong Lim), and they return to live at their",
+		" country home. "
+		]
+	}
+]

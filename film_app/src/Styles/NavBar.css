@@ -1,0 +1,41 @@
+
+.btn{
+    margin-bottom: 15px;
+    border: none; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    
+}
+
+
+.infoDisplay{
+   
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-evenly;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 45% 45%;
+    padding: 10px;
+}
+
+.filmInfo{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;  
+}
+
+@media only screen and (max-width: 768px){
+    [class*="btn"]{
+        width: 100%;
+        border-bottom: 1px solid black;
+        font-size: 14px;
+    }
+    [class*="filmInfo"]{
+        font-size: 16px;
+    }
+    [class*="infoDisplay"]{
+        grid-template-columns: 100%;
+    }
+}
+

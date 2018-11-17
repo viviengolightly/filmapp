@@ -1,0 +1,22 @@
+.searchBox{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.form{
+  display: grid;
+  grid-gap: 5px;
+
+}
+
+.inputField{
+    grid-column-start: 11;
+    grid-column-end:11;
+}
+.submitButton{
+    grid-column-start: 12;
+    grid-column-end:12;
+}
+
+
+
