@@ -18,36 +18,36 @@ To run the app on your laprop:
 
 2. Create a db directory: 
 
-$ sudo mkdir -p /data/db
+`$ sudo mkdir -p /data/db`
 
 3. 
 Change the /data/db directory premission by running: 
 
-$ sudo chown -R id -un /data/db
+$ sudo chown -R \`id -un\` /data/db
 
 4. Start Mongo by running in a terminal: 
 
-$ mongod.
+`$ mongod.`
 
 5. Import MongoDB data to the db: cd into the film-api folder and run: 
 
-$ mongoimport --db FilmsDB --collection films --drop --file ./importData.json --jsonArray
+`$ mongoimport --db FilmsDB --collection films --drop --file ./importData.json --jsonArray`
 
 6. In the film-api directory firt run: 
 
-$ npm install.
+`$ npm install.`
 
 7. After the installation is completed run: 
 
-$ npm start
+`$ npm start`
 
 8. Go to the new terminal window and cd to the film_app directory
 
 Do: 
-$ npm install
+`$ npm install`
 
 Then:
-$ npm start
+`$ npm start`
 
 9. Open browser and type the address: http://localhost:3000
 
